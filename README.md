@@ -1,2 +1,2 @@
-# GelecegiYazanKad-nlar
+# GelecegiYazanKadınlar
 :dancer:

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.hasibezafer.gykkarabuk.WaterCount"
+    android:weightSum="1"
+    android:background="#2aa9dc">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KAÇ ML SU İÇTİN ?"
+        android:layout_gravity="center"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="44dp"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/bardak"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0.24" />
+
+    <EditText
+        android:id="@+id/etAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Miktar giriniz."
+        android:inputType="textPersonName"
+        android:text=""
+        android:backgroundTint="#ffffff"
+        android:textColorHint="#ffffff"
+        android:layout_marginTop="16dp"
+        />
+
+    <Button
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EKLE"
+        android:textColor="#2aa9dc"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"/>
+
+    <Button
+        android:background="#ffffff"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/btnWeek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HAFTALIK RAPORU GÖR"
+        android:textColor="#2aa9dc"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>

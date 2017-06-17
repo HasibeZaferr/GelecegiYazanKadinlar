@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.hasibezafer.gyktimya301.AnimalActivity">
+
+
+
+
+    <ImageView
+        android:id="@+id/cat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:srcCompat="@mipmap/cat" />
+
+    <TextView
+        android:layout_gravity="center"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kediniz için neler yapabilirsiniz ?" />
+
+    <Button
+        android:id="@+id/btnVideo"
+        android:textStyle="bold"
+        android:background="#B06AB3"
+        android:textColor="#fff"
+        android:padding="16dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Video İzle" />
+
+    <Button
+        android:id="@+id/btnMaps"
+        android:textStyle="bold"
+        android:background="#B06AB3"
+        android:textColor="#fff"
+        android:padding="16dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Satın Alabileceğin Yerleri Keşfet!" />
+</LinearLayout>

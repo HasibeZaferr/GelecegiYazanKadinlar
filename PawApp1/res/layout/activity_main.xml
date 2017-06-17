@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+    android:padding="16dp"
+    tools:context="com.hasibezafer.gyktimya301.MainActivity"
+    android:weightSum="1">
+
+
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/imageView"
+        android:layout_width="337dp"
+        android:layout_height="106dp"
+        android:layout_marginTop="80dp"
+        app:srcCompat="@mipmap/pawbook"
+        android:layout_weight="0.11" />
+
+    <LinearLayout
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <EditText
+            android:id="@+id/etUserName"
+            android:backgroundTint="#fff"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:fontFamily="casual"
+            android:hint="Kullanıcı adı giriniz"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.11"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:backgroundTint="#fff"
+            android:textSize="20sp"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:fontFamily="casual"
+            android:hint="******"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.11"
+            android:ems="10"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:textStyle="bold"
+            android:fontFamily="casual"
+            android:textColor="#fff"
+            android:background="@drawable/shape"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:padding="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Giris Yap" />
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

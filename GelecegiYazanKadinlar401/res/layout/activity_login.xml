@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/loginback"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.hasibezafer.gelecegiyazankadinlar.LoginActivity">
+
+
+
+    <TextView
+
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Giriş Yap"
+        android:textColor="#fff"/>
+
+
+
+
+    <EditText
+        android:layout_marginTop="140dp"
+        style="@style/TextStyle"
+        android:id="@+id/etMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:hint="E-posta giriniz."/>
+
+    <EditText
+        style="@style/TextStyle"
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text=""
+        android:hint="******"/>
+
+    <TextView
+        android:textColor="#fdff6f"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="right"
+        android:id="@+id/tvReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Şifreni mi unuttun ?"
+        android:onClick="tvReset"/>
+
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:background="@drawable/shape"
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Giriş Yap" />
+</LinearLayout>
